@@ -37,12 +37,19 @@ def perguntas():
     ).upper()
 
 def inserir_despesa(despesas):
-   despesas[input("Digite a despesa: ").upper()] = [input("Digite a Descrição: ").upper(),
-                                                         float(input("Digite o valor: ")), 
-                                                         input("Digite a data: "), 
-                                                         input("Digite o status: ").upper()]
+    despesa = input("Digite a despesa: ").upper()
+    descricao = input("Digite a Descrição: ").upper()
+    valor = float(input("Digite o valor: "))
+    data = input("Digite a data: ")
+    status = input("Digite o status: ").upper()
+
+    despesas[despesa] = [descricao, valor, data, status]
+    salvar(despesas)
+
 
 def salvar(despesas):
-    with open("bd.txt", "a") as arquivo:
+    with open("banco.json", "w") as arquivo:
         for chave, valor in despesas.items():
-            arquivo.write(chave + ":" + str(valor))
+            arquivo.write(chave + ":" + str(valor)+"\n")
+
+            
