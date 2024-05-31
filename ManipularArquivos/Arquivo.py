@@ -9,7 +9,7 @@ import json
 
 
 # -------------------------------------------------------------- #
-# - Criando novo arquivo , usnado A ele inseri um novo arquivo -
+# - Criando novo arquivo , usando A ele inseri um novo arquivo -
 # with open ("primeiro_arquivo.txt" , "a") as arquivo:
 #   arquivo.write("\nTeste bomba")
 # -------------------------------------------------------------- #

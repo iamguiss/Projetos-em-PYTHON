@@ -11,3 +11,6 @@ while op == "I" or op == "P" or op == "E" or op == "L":
     if op == "I":     
       inserir_despesa(despesas)   
       op = perguntas()     
+    elif op == "E":
+      exibir_despesas(despesas)
+      op = perguntas()

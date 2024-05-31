@@ -10,8 +10,8 @@ def preencher_despesa(lista):
         lista.append(despesa)
         resp = input("Digite \"S\" para continuar: ").upper()
 
-def exibir_despesas(lista):
-    for elemento in lista:
+def exibir_despesas(despesas):
+    for elemento in despesas:
         print("Descrição.....:", elemento[0])
         print("Valor.........:", elemento[1])
         print("Mês...........:", elemento[2])
@@ -48,8 +48,13 @@ def inserir_despesa(despesas):
 
 
 def salvar(despesas):
-    with open("banco.json", "w") as arquivo:
+    with open("banco.txt", "w") as arquivo:
         for chave, valor in despesas.items():
             arquivo.write(chave + ":" + str(valor)+"\n")
 
-            
+def ver(despesas):
+    with open("banco.json", "r") as arquivo:
+        despesas = arquivo.readline()
+        for linha in arquivo.readlines():
+         print (linha)
+
