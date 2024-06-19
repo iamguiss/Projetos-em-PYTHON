@@ -1,0 +1,18 @@
+TESTE:
+Valor guardado: 1.0
+Tim: 1.0
+Fatura do cartão: 1.0
+Roupa/tenis: 1.0
+iCloud: 1.0
+Spotify: 1.0
+Cabeleireiro: 1.0
+
+M~ES DE JULHO:
+Valor guardado: 1.0
+Tim: 2.0
+Fatura do cartão: 3.0
+Roupa/tenis: 4.0
+iCloud: 5.0
+Spotify: 6.0
+Cabeleireiro: 6.0
+

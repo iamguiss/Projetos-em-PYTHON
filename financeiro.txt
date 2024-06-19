@@ -1,0 +1,1 @@
+1: ['Valor guardado', 2.0, '\n', 'Tim', 3.0, '\n', 'Fatura do cartão', 4.0, '\n', 'Roupa/tenis', 5.0, '\n', 'iCloud', 6.0, '\n', 'Spotify', 7.0, '\n', 'Cabeleireiro', 8.0]

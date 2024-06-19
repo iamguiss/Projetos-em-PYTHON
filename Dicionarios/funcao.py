@@ -29,9 +29,7 @@ def perguntas():
     return input(
         "O que deseja realizar:\n" +
         "<I> - Para Inserir uma Despesa\n" +
-        "<P> - Para Pesquisar uma despesa\n" +
-        "<E> - Para Excluir uma despesa\n" +
-        "<L> - Para Listar todas as despesas\n" +
+        "<C> - Para somar as contas\n" +
         "\n" +
         "Digite a opção: "
     ).upper()

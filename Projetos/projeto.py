@@ -1,7 +1,4 @@
 from Dicionarios.funcao import *
-  
-
-
 
 despesas = {}
 
